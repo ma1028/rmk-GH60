@@ -1,6 +1,6 @@
 [keyboard]
-name = "elim 60%"
-product_name = "elim 60%"
+name = "rmk-gh60"
+product_name = "rmk-gh60"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "ma1028"
@@ -36,16 +36,16 @@ keys = """
         LCtrl    LGui LAlt         Space               MO(1) Left                   Down         Right 
 """
 # layer 1 :
-#[[layer]]
-#name = "default_layer" #optional name for the layer
-#keys = """
-#        ["Grave", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "Delete"],
-#        ["_", "User0", "User1", "User2", "User3", "User4", "User5", "User6", "User7", "_", "_", "_", "_", "_"],
-#        ["_", "User8", "User9", "User10", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"],
-#        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"],
-#        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"]
-#   """
+[[layer]]
+name = "abc_layer" #optional name for the layer
+keys = """
+        Grave F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 Delete 
+          User0 User1 User2 User3 User User5 User6 User7               
+          User8 User9 User10                            
+                                                                         
 
+"""
+                                                                  
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
 capslock = { pin = "P0_26", low_active = false }
