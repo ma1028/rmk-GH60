@@ -1,7 +1,7 @@
 {
     "name": "rmk-gh60",
-    "vendorId": "0x4C4B",
-    "productId": "0x4643",
+    "vendorId": "0xFEED",
+    "productId": "0x6060",
     "lighting": "none",
     "matrix": {
         "rows": 5,
