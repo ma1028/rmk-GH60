@@ -39,11 +39,11 @@ keys = """
 [[layer]]
 name = "abc_layer" #optional name for the layer
 keys = """
-        Grave F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 Delete 
-        User0 User1 User2 User3 User User5 User6 User7               
-        User8 User9 User10                            
-                                                                         
-
+        Grave F1    F2     F3    F4   F5    F6    F7    F8 F9 F10 F11 F12 Delete 
+        User0 User1 User2  User3 User User5 User6 User7 No No No  No  No  No       
+        User8 User9 User10 No    No    No   No    No    No No No  No      No        
+        No    No    No     No    No    No   No    No    No No No          No 
+        No    No    No                 No                  No No      No  No 
 """
                                                                   
 [light]
